@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COVID-test", "COVID-test\COVID-test.csproj", "{71167893-0E0F-4734-ACA4-53A16086281C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{252D8D43-7E4C-4B51-8DCF-0BF49E883EF9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71167893-0E0F-4734-ACA4-53A16086281C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71167893-0E0F-4734-ACA4-53A16086281C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71167893-0E0F-4734-ACA4-53A16086281C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71167893-0E0F-4734-ACA4-53A16086281C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4DA9DAF-F513-4C7F-9737-C96913989728}
+	EndGlobalSection
+EndGlobal
