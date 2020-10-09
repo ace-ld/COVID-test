@@ -23,7 +23,7 @@ namespace COVID_test
                 Console.WriteLine($"New deaths: {repo.NewDeaths}");
                 Console.WriteLine($"New confirmed: {repo.NewConfirmed}");
                 Console.WriteLine($"New recovered: {repo.NewRecovered}");
-                Console.WriteLine(repo.Date);
+                Console.WriteLine($"Date: {repo.Date}");
                 Console.WriteLine("========================");
             }
         }
