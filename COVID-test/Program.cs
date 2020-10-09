@@ -34,7 +34,6 @@ namespace COVID_test
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
 
-
             var streamTask = client.GetStreamAsync("https://api.covid19api.com/summary");
 
             var myDeserializedClass = await JsonSerializer.DeserializeAsync<Root>(await streamTask);
