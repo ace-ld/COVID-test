@@ -16,7 +16,7 @@ namespace COVID_test
 
             foreach (var repo in repositories.Countries)
             {
-                Console.WriteLine(repo.CountryStr);
+                Console.WriteLine($"Country: {repo.CountryStr}");
                 Console.WriteLine($"Total deaths: {repo.TotalDeaths}");
                 Console.WriteLine($"Total confirmed: {repo.TotalConfirmed}");
                 Console.WriteLine($"Total recovered: {repo.TotalRecovered}");
