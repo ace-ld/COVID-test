@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace COVID_test
 {
-    public class Global
+    public struct Global
     {
         public int NewConfirmed { get; set; }
         public int TotalConfirmed { get; set; }
@@ -15,7 +15,7 @@ namespace COVID_test
         public int TotalRecovered { get; set; }
     }
 
-    public class Country
+    public struct Country
     {
         [JsonPropertyName("Country")]
         public string CountryStr { get; set; }
@@ -30,7 +30,7 @@ namespace COVID_test
         public DateTime Date { get; set; }
     }
 
-    public class Root
+    public struct Root
     {
         public Global Global { get; set; }
         public List<Country> Countries { get; set; }
